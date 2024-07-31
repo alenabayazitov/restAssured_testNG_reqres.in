@@ -1,3 +1,4 @@
+package runWithXml;
 import org.testng.annotations.DataProvider;
 
 public class DataForTests {

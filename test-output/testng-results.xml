@@ -1,89 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-29T18:01:12 PDT" name="Suite" finished-at="2024-07-29T18:01:15 PDT" duration-ms="3710">
+  <suite started-at="2024-07-30T17:56:28 PDT" name="Default suite" finished-at="2024-07-30T17:56:29 PDT" duration-ms="1256">
     <groups>
     </groups>
-    <test started-at="2024-07-29T18:01:12 PDT" name="Test" finished-at="2024-07-29T18:01:15 PDT" duration-ms="3710">
-      <class name="DataDrivenExamples">
-        <test-method signature="testDelete(int)[pri:0, instance:DataDrivenExamples@15bb5034]" started-at="2024-07-29T18:01:12 PDT" name="testDelete" data-provider="DataForDelete" finished-at="2024-07-29T18:01:13 PDT" duration-ms="1502" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[7]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2024-07-30T17:56:28 PDT" name="Default test" finished-at="2024-07-30T17:56:29 PDT" duration-ms="1256">
+      <class name="JSONSchemaValidator">
+        <test-method signature="testGet()[pri:0, instance:JSONSchemaValidator@1530c739]" started-at="2024-07-30T17:56:28 PDT" name="testGet" finished-at="2024-07-30T17:56:29 PDT" duration-ms="1221" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testDelete -->
-        <test-method signature="testDelete(int)[pri:0, instance:DataDrivenExamples@15bb5034]" started-at="2024-07-29T18:01:13 PDT" name="testDelete" data-provider="DataForDelete" finished-at="2024-07-29T18:01:14 PDT" duration-ms="391" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[9]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testDelete -->
-        <test-method signature="testDelete(int)[pri:0, instance:DataDrivenExamples@15bb5034]" started-at="2024-07-29T18:01:14 PDT" name="testDelete" data-provider="DataForDelete" finished-at="2024-07-29T18:01:14 PDT" duration-ms="409" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[11]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testDelete -->
-        <test-method signature="testDelete2(int)[pri:0, instance:DataDrivenExamples@15bb5034]" started-at="2024-07-29T18:01:14 PDT" name="testDelete2" finished-at="2024-07-29T18:01:14 PDT" duration-ms="471" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[3]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testDelete2 -->
-        <test-method signature="testPost(java.lang.String,java.lang.String)[pri:0, instance:DataDrivenExamples@15bb5034]" started-at="2024-07-29T18:01:14 PDT" name="testPost" data-provider="DataForPost" finished-at="2024-07-29T18:01:15 PDT" duration-ms="471" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Samuel]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[president]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testPost -->
-        <test-method signature="testPost(java.lang.String,java.lang.String)[pri:0, instance:DataDrivenExamples@15bb5034]" started-at="2024-07-29T18:01:15 PDT" name="testPost" data-provider="DataForPost" finished-at="2024-07-29T18:01:15 PDT" duration-ms="410" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Thomas]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[scientist]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testPost -->
-      </class> <!-- DataDrivenExamples -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- testGet -->
+      </class> <!-- JSONSchemaValidator -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
